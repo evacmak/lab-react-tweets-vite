@@ -1,3 +1,7 @@
-<p className="message"> TWEET_MESSAGE </p>
-
+const Message = (props) => {
+    return (
+<p className="message">{props.message}</p>
+    
+    )
+}
 export default Message;
